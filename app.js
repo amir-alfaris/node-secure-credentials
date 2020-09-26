@@ -10,12 +10,16 @@ const port = 3000;
 
 const app = express();
 
-app.use(body_parser.json());
-app.use('/create', create_user_router);
-app.use('/list', list_user_router);
-
 mongoose.connect(connectionString, {
     useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology: true
+});
+
+app.use(body_parser.json());
+app.use('/create', create_user_router);
+app.use('/list', list_user_router);
+
+app.listen(port, () => {
+    console.log(`Server listening at http://localhost:${port}`);
 });
