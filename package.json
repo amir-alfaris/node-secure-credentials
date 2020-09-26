@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/amir-alfaris/node-secure-credentials#readme",
   "dependencies": {
-    "bcrypt": "^5.0.0"
+    "bcrypt": "^5.0.0",
+    "mongoose": "^5.10.7"
   }
 }
