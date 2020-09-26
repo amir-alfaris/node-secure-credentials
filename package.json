@@ -1,0 +1,24 @@
+{
+  "name": "secure-credentials",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amir-alfaris/node-secure-credentials.git"
+  },
+  "author": "Amir Ayub",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amir-alfaris/node-secure-credentials/issues"
+  },
+  "homepage": "https://github.com/amir-alfaris/node-secure-credentials#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0"
+  }
+}
